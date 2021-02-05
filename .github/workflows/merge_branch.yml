@@ -11,6 +11,7 @@ jobs:
           cd Actiontest
           git checkout branch4
           git merge origin/branch3
-          git request-pull branch4 origin/main
+          git branch
+          git request-pull branch4 main
     
      
