@@ -11,5 +11,6 @@ jobs:
           cd Actiontest
           git checkout branch4
           git merge origin/branch3
+          git push -u origin branch4
     
      
