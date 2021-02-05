@@ -10,6 +10,6 @@ jobs:
           git clone https://github.com/mail2sebastianpeter/Actiontest.git
           cd Actiontest
           git checkout branch4
-          git merger branch3
+          git merge branch3
     
      
