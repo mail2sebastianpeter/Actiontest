@@ -1,5 +1,5 @@
 name: github actions
-on: [member]
+on: [push]
 jobs:
   merge_branch:
     name: merge the branch3 to branch4
