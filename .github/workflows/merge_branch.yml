@@ -7,11 +7,11 @@ jobs:
     steps:
       - name: merge code
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PASSWORD }}
         run: |
           git config --global user.name 'Sebastian Petet'
           git config --global user.email 'mail2sebastianpeter@gmail.com'
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/mail2sebastianpeter/Actiontest
+          git remote set-url origin https://x-access-token:${{ secrets.PASSWORD }}@github.com/mail2sebastianpeter/Actiontest
           git clone https://github.com/mail2sebastianpeter/Actiontest.git
           cd Actiontest
           git checkout branch4
