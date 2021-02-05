@@ -11,7 +11,7 @@ jobs:
         run: |
           git config --global user.name 'Sebastian Petet'
           git config --global user.email 'mail2sebastianpeter@gmail.com'
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/mail2sebastianpeter/Actiontest.git
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/mail2sebastianpeter/Actiontest
           git clone https://github.com/mail2sebastianpeter/Actiontest.git
           cd Actiontest
           git checkout branch4
