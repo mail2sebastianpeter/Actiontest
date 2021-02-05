@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: merge code
         env:
-          GITHUB_TOKEN: ${{ secrets.PASSWORD }}
+          PASSWORD: ${{ secrets.PASSWORD }}
         run: |
           git config --global user.name 'Sebastian Petet'
           git config --global user.email 'mail2sebastianpeter@gmail.com'
